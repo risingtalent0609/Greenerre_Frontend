@@ -1,0 +1,42 @@
+.slider {
+  li {
+    div {
+      height: 100%;
+    }
+  }
+}
+
+.slide-item {
+  div {
+    background-color: white;
+  }
+}
+
+.carousel-container {
+  height: calc(100vh - 100px);
+  .carousel-inner {
+    height: 100%;
+    .carousel-item {
+      height: 100%;
+      img {
+        height: 100%;
+      }
+      .carousel-caption {
+        background-color: white;
+        h3 {
+          color: black;
+        }
+        img {
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .carousel-container {
+    height: calc(60vh - 100px);
+  }
+}
