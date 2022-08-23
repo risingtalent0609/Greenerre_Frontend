@@ -15,7 +15,7 @@ const GreenerMarket = () => {
 
   return (
     <div className="p-5">
-      <h1 className="text-center mb-5">TheGreenerMarket</h1>
+      <h1 className="text-center mb-5">TheGreenerre Market</h1>
       <Row className="border-2 market-container">
         <Col className="p-5" lg={6} xs={12}>
           <ul>
