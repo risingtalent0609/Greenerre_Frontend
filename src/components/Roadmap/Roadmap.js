@@ -9,6 +9,7 @@ const Roadmap = () => {
       <div className="row">
         <div className="col-md-12">
           <div className="main-timeline">
+            <h1 className="roadmap_title">Road Map</h1>
             <div className="timeline">
               <div href="#" className="timeline-content">
                 <div className="timeline-icon">
